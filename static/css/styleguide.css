@@ -1,3 +1,17 @@
+
+nav {
+	padding: 20px;
+	background-color: black;
+	color: white;
+	}
+	
 nav > form {
 	display: inline;
+	}
+	
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 0px 20px;
+	
 	}
