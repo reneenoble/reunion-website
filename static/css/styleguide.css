@@ -4,15 +4,23 @@ nav {
 	background-color: black;
 	color: white;
 	}
-	
+
 nav > form {
 	display: inline;
 	color: black;
 	}
-	
+
 nav a {
 	color: white;
 	text-decoration: none;
 	padding: 0px 20px;
-	
+	}
+
+nav .logo {
+	font-size: 30px;
+	}
+
+.logo {
+	color: gold;
+	font-family: 'Oleo Script Swash Caps', cursive;;
 	}
