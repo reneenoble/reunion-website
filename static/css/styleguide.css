@@ -1,7 +1,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	min-width: 970px;
+	background: #eee;
 	}
+
+.content {
+	margin: 0px auto;
+	width: 970px;
+	white-space: nowrap;
+	background: white;
+	}
+
 
 nav {
 	padding: 20px;
@@ -32,7 +41,9 @@ nav .logo {
 main {
 	display: inline-block;
 	vertical-align: top;
-	width: 750px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 710px;
 	white-space: nowrap;
 	}
 
@@ -58,6 +69,7 @@ aside {
 	display: inline-block;
 	vertical-align: top;
 	width: 220px;
+	white-space: normal;
 	}
 
 
