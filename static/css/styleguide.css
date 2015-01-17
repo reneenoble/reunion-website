@@ -36,6 +36,10 @@ main {
 	white-space: nowrap;
 	}
 
+main .profile-title {
+	white-space: normal;
+}
+
 main .profile-info {
 	display: inline-block;
 	width: 300px;
