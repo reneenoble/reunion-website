@@ -34,6 +34,10 @@ main article.event img {
 	max-height: 100px;
 	}
 
+main ul.orgs {
+	list-style-type: none;
+	}
+
 main ul.orgs  img{
 	float: left;
 	height: auto;
