@@ -1,6 +1,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	min-width: 970px;
 	}
+
 nav {
 	padding: 20px;
 	background-color: black;
@@ -26,7 +28,19 @@ nav .logo {
 	color: gold;
 	font-family: 'Oleo Script Swash Caps', cursive;;
 	}
-	
+
+main {
+	display: inline-block;
+	vertical-align: top;
+	width: 750px;
+	}
+
+aside {
+	display: inline-block;
+	vertical-align: top;
+	width: 220px;
+	}
+
 main article.event img {
 	height: auto;
 	width: auto;
