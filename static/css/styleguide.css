@@ -33,6 +33,21 @@ main {
 	display: inline-block;
 	vertical-align: top;
 	width: 750px;
+	white-space: nowrap;
+	}
+
+main .profile-info {
+	display: inline-block;
+	width: 300px;
+	white-space: normal;
+	vertical-align: top;
+	}
+
+main .profile-content {
+	display: inline-block;
+	width: 450px;
+	white-space: normal;
+	vertical-align: top;
 	}
 
 aside {
@@ -40,6 +55,7 @@ aside {
 	vertical-align: top;
 	width: 220px;
 	}
+
 
 main article.event img {
 	height: auto;
