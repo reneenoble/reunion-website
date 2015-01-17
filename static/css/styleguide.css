@@ -26,3 +26,19 @@ nav .logo {
 	color: gold;
 	font-family: 'Oleo Script Swash Caps', cursive;;
 	}
+	
+main article.event img {
+	height: auto;
+	width: auto;
+	max-width: 100px;
+	max-height: 100px;
+	}
+
+main ul.orgs  img{
+	float: left;
+	height: auto;
+	width: auto;
+	max-width: 50px;
+	max-height: 50px;
+	}
+
