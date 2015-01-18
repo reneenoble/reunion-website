@@ -2,41 +2,40 @@ body {
 	font-family: 'Roboto', sans-serif;
 	min-width: 970px;
 	background: #eee;
-	}
+}
 
 .content {
 	margin: 0px auto;
 	width: 970px;
 	white-space: nowrap;
 	background: white;
-	}
-
+}
 
 nav {
 	padding: 20px;
 	background-color: black;
 	color: white;
-	}
+}
 
 nav > form {
 	display: inline;
 	color: black;
-	}
+}
 
 nav a {
 	color: white;
 	text-decoration: none;
 	padding: 0px 20px;
-	}
+}
 
 nav .logo {
 	font-size: 30px;
-	}
+}
 
 .logo {
 	color: gold;
 	font-family: 'Oleo Script Swash Caps', cursive;;
-	}
+}
 
 main {
 	display: inline-block;
@@ -45,7 +44,7 @@ main {
 	margin-right: 20px;
 	width: 710px;
 	white-space: nowrap;
-	}
+}
 
 main .profile-title {
 	white-space: normal;
@@ -56,33 +55,39 @@ main .profile-info {
 	width: 300px;
 	white-space: normal;
 	vertical-align: top;
-	}
+}
 
 main .profile-content {
 	display: inline-block;
 	width: 450px;
 	white-space: normal;
 	vertical-align: top;
-	}
+}
 
 aside {
 	display: inline-block;
 	vertical-align: top;
 	width: 220px;
 	white-space: normal;
-	}
+}
 
 
 main article.event img {
+	float: left;
 	height: auto;
 	width: auto;
 	max-width: 100px;
 	max-height: 100px;
-	}
+}
+
+main article.event {
+	height: 100px;
+	overflow: hidden;
+}
 
 main ul.orgs {
 	list-style-type: none;
-	}
+}
 
 main ul.orgs  img{
 	float: left;
@@ -90,5 +95,8 @@ main ul.orgs  img{
 	width: auto;
 	max-width: 50px;
 	max-height: 50px;
-	}
+}
 
+.orgs li {
+	min-height: 50px;
+}
