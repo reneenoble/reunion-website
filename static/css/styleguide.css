@@ -85,11 +85,18 @@ main article.event {
 	overflow: hidden;
 }
 
-main ul.orgs {
+ul.orgs, 
+ul.events {
 	list-style-type: none;
 }
 
-main ul.orgs  img{
+ul.orgs li, 
+ul.events li {
+	min-height: 50px;
+}
+
+ul.orgs  img, 
+ul.events  img{
 	float: left;
 	height: auto;
 	width: auto;
@@ -97,13 +104,9 @@ main ul.orgs  img{
 	max-height: 50px;
 }
 
-.orgs li {
-	min-height: 50px;
-}
-
 h1 {
-	font-size: 26px;
-	margin: 20px;
+	font-size: 30px;
+	margin: 16px;
 }
 
 h2 {
