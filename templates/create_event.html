@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+	<title>profile page</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/html5reset-1.6.1.css">
+	<!--<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">-->
+	<link rel="stylesheet" type="text/css" href="../static/css/styleguide.css">
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps:400,700|Roboto:400,700,900' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+	<header>
+	<nav>
+		<a href=/home>
+			<span class="logo"><i class="fa fa-users"></i> Reuniter</span>
+		</a>
+		<form>
+			<input placeholder="Search" />
+		</form>
+		<a href=/home>Name</a>
+		<a href=/home>Create</a>
+	</nav>
+	</header>
+	
+	<div class="content">
+		<form>
+			<fieldset>
+			<p>
+				<label>Organisation: <label>
+				<select name="organisation">
+					<option value="" selected>Select An Organisation</option>
+					<option value="suihaa">SUIHAA</option>
+					<option value="usyd">The University of Sydney</option>
+					<option value="ncss">NCSS</option>
+				</select>
+			</p>
+			
+			<p>
+				<label>Choose Date Range</label> 
+				<input name="start date range" type="date"/>
+				<input name="end date range" type="date"/>
+			</p>
+			
+			<p>
+				<label>What time of day will the event be at: </label><br>
+				<input type="checkbox" name="time of day" value="early morning">Early Morning</input>
+				<input type="checkbox" name="time of day" value="morning">Morning</input>
+				<input type="checkbox" name="time of day" value="miday">Midday</input>
+				<input type="checkbox" name="time of day" value="afternoon">Afternoon</input>
+				<input type="checkbox" name="time of day" value="evening">Evening</input>
+				<input type="checkbox" name="time of day" value="night">Night</input>
+				<input type="checkbox" name="time of day" value="late night">Late Night</input>
+				
+			<p>
+			
+			<p>
+				<label>Set the City/Suburb</label> 
+				<input name="location" placeholder="Location" />
+			</p>
+			
+			<p>
+				<label>Select Event type: <label>
+				<select name="event type">
+					<option value="" selected>What type of event is it?</option>
+					<option value="dinner">Dinner</option>
+					<option value="drinks">Drinks</option>
+					<option value="lunch">Lunch</option>
+					<option value="picnic">Picnic</option>
+					<option value="bbq">BBQ</option>
+					<option value="outing">Outing</option>
+					<option value="lecture">Lecture</option>
+				</select>
+			</p>
+			
+			<p>
+				<label>Which Cohorts would you like to advertise to: </label> 
+				<input name="cohort" placeholder="Select cohorts to invite" />
+			</p>
+			</fieldset>
+			
+		<fieldset>
+			<p>
+				<label>Who can attend the event? </label><br>
+				<input type="radio" name="allowed attendees" value="only selected" checked>Selected cohorts only</input>
+				<input type="radio" name="allowed attendees" value="all cohorts">Any cohorts from this organisation</input>
+				<input type="radio" name="allowed attendees" value="all">Anyone</input>
+			</p>
+			
+			<p>
+				<label>Who can organisation members bring to the event? </label><br>
+				<input type="radio" name="allowed guests" value="only member" checked>No Guests</input>
+				<input type="radio" name="allowed guests" value="partners">Partners/+1's</input>
+				<input type="radio" name="allowed guests" value="family">Family</input>
+				<input type="radio" name="allowed guests" value="friends">Any Friends</input>
+			</p>
+			</fieldset>
+			
+			<fieldset>
+				<p>
+					<label>do you want to set the location or poll to see where everyone wants to go: <label><br>
+					<input type="radio" name="location set" value="set" checked>Set myself</input>
+					<input type="radio" name="location set" value="poll">Set up a poll</input>
+				</p>
+			</fieldset>
+			
+			<fieldset>
+				<p>
+					<label>When will you finalise the date?</label> 
+					<input name="finalise date" type="date"/>
+				</p>
+			</fieldset>
+			<input type="submit" value="Create Event">
+		</form>
+	</div>
+
+	</body>
