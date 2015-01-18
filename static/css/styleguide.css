@@ -71,6 +71,10 @@ aside {
 	white-space: normal;
 }
 
+main article.event {
+	height: 114px;
+	overflow: hidden;
+}
 
 main article.event img {
 	float: left;
@@ -78,11 +82,7 @@ main article.event img {
 	width: auto;
 	max-width: 100px;
 	max-height: 100px;
-}
-
-main article.event {
-	height: 100px;
-	overflow: hidden;
+	margin: 7px;
 }
 
 ul.orgs, 
@@ -92,7 +92,7 @@ ul.events {
 
 ul.orgs li, 
 ul.events li {
-	min-height: 50px;
+	min-height: 60px;
 }
 
 ul.orgs  img, 
@@ -102,6 +102,7 @@ ul.events  img{
 	width: auto;
 	max-width: 50px;
 	max-height: 50px;
+	margin: 5px;
 }
 
 h1 {
